@@ -1,0 +1,429 @@
+favicon: https://cdn.jsdelivr.net/gh/gaoyanliang/blogImgs@main/blog/img/icon.svg
+banner: https://gitee.com/Langwenchong/figure-bed/raw/master/uugai.com_1626063299631.png
+
+logo:
+  expanded: https://gitee.com/Langwenchong/figure-bed/raw/master/uugai.com_1626063299631.png
+  collapsed: https://gitee.com/Langwenchong/figure-bed/raw/master/uugai.com-1626063308478.png
+  dark: https://gitee.com/Langwenchong/figure-bed/raw/master/uugai.com_1626097409216.png
+
+flag:
+  icon: flag-cn
+  name: Chinese
+
+search: true
+
+githubCorner: '<a href="https://github.com/gaoyanliang/navigation" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>'
+
+menu:
+  - name: 程序猿🙈
+    icon: far fa-star
+    submenu:
+      - name: 编程工具
+        icon: fas fa-box
+        config: warehouse
+      - name: 刷题网站
+        icon: fas fa-coffee
+        config: oj
+      - name: 站长工具
+        icon: fas fa-drafting-compass
+        config: blog
+      - name: 图标库
+        icon: fas fa-box-open
+        config: open-warehouse
+  - name: 常用工具
+    icon: far fa-star
+    submenu:
+      - name: 参考文档
+        icon: fas fa-book
+        config: books
+      - name: 图床工具
+        icon: fas fa-images
+        config: imagebeds
+      - name: 收藏工具
+        icon: fas fa-share
+        config: tools
+      - name: 文件处理
+        icon: fas fa-briefcase
+        config: files
+  - name: 设计美化
+    icon: fas fa-star
+    submenu:
+      - name: 颜色搭配
+        icon: fas fa-paint-brush
+        config: colors
+      - name: 图片素材
+        icon: fas fa-camera-retro
+        config: images
+
+# ====================================== 程序猿🙈 ======================================
+
+warehouse:
+  - name: github
+    url: https://github.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/github.png
+    description: 是个程序猿就知道的托管仓库
+  - name: gitee
+    url: https://gitee.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/gitee.png
+    description: 中文版"github",github宕机时发挥至关重要的作用！
+  - name: coding
+    url: https://coding.net/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/coding.png
+    description: 提供免费的代码项目托管，真香！
+  - name: Vercel
+    url: https://vercel.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/vercel.png
+    description: 提供免费的代码项目托管，真香！
+  - name: Gimhoy音乐盘
+    url: https://music.gimhoy.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/gimhoy.png
+    description: 上传音乐生成外联，博客开发必备工具
+  - name: 菜鸟工具
+    url: https://c.runoob.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/crunoob.ico
+    description: 各种编程工具
+  - name: mvnrepository
+    url: https://mvnrepository.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/mvnrepository.png
+    description: mvn 仓库
+  - name: oschina tool
+    url: https://tool.oschina.net/diff/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/oschinatool.svg
+    description: 代码对比
+  - name: Code Beautify
+    url: https://codebeautify.org/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/codebeautify.webp
+    description: 代码格式美化
+  - name: BEJSON
+    url: https://www.bejson.com/convert/filesize/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/bejson.png
+    description: 单位换算
+
+
+oj:
+  - name: leetcode
+    url: https://leetcode-cn.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/leetcode.png
+    description: 全球极客挚爱的技术成长平台
+  - name: 牛客oj
+    url: https://ac.nowcoder.com/acm/contest/vip-index
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/nowcoder.png
+    description: 专业的编程算法训练平台，包括ACM校赛、ICPC、CCPC、CSP、信息学省选、NOI等编程比赛提高训练营
+  - name: 洛谷
+    url: https://www.luogu.com.cn/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/luogu.png
+    description: 致力于为参加noip、noi、acm的选手提供清爽、快捷的编程体验
+  - name: new online judge
+    url: http://oj.ecustacm.cn/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/ecustacm.png
+    description: 专业的编程算法训练平台，包括ACM校赛、ICPC、CCPC、CSP、信息学省选、NOI等编程比赛提高训练营
+  - name: codeforces
+    url: https://codeforces.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/codeforces.png
+    description: oj版"穿越火线"，我看今天晚上就是上分吉日！
+  - name: PTA
+    url: https://pintia.cn/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/pintia.png
+    description: 程序设计类实验辅助教学平台
+  - name: ccf csp题库
+    url: http://118.190.20.162/home.page
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/ccfcsp.png
+    description: 各大高校考研免机试考核认证
+
+
+
+blog:
+  - name: Google Search Console
+    url: https://search.google.com/search-console
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/googlelogo.svg
+    description: Google 站长平台
+  - name: 测速网站
+    url: https://ping.chinaz.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/ping.png
+    description: 快速测试网站加载速度，ping连通性等指标
+  - name: Baidu Console
+    url: https://ziyuan.baidu.com/dashboard
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/baidu.ico
+    description: 百度站长平台
+  - name: 阿里云
+    url: https://cn.aliyun.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/aliyun.png
+    description: 云服务当然是收费的，有时需要货比三家！
+  - name: 又拍云
+    url: https://www.upyun.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/youpaiyun.png
+    description: 云服务当然是收费的，有时需要货比三家！
+  - name: Loading.io
+    url: https://loading.io/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/loadingio.ico
+    description: loading 图片生成
+  - name: PNG 转 SVG
+    url: https://www.aconvert.com/cn/image/png-to-svg/#
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/aconvert.ico
+    description: 图片格式转换
+  - name: footer懒设计
+    url: https://www.fotor.com.cn/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/footer.png
+    description: 为你的博文设计一张精美的头图
+  - name: 可画设计
+    url: https://www.canva.cn/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/canva.png
+    description: 为你的博文设计一张精美的头图
+
+
+open-warehouse:
+  - name: fontawesome图标库
+    url: http://fontawesomelib.cn/releases/5.15.3/icon/books/duotone.html
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/fontawesomelib.png
+    description: 全世界最流行的矢量图标库
+  - name: iconfont-阿里巴巴矢量图标库
+    url: https://www.iconfont.cn/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/iconfont.png
+    description: 国产图标库的骄傲！
+  - name: boxicons矢量图标库
+    url:  https://boxicons.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/boxicons.png
+    description: 虽然小众，但是很漂亮！
+  - name: emoji表情包
+    url: http://www.fhdq.net/emoji/emojifuhao.html
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/emoji.png
+    description: 全世界最流行的表情包
+  - name: echarts图标库
+    url: https://echarts.apache.org/zh/index.html
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/echarts.png
+    description: 一个基于 JavaScript 的开源可视化图表库，数据展示必备
+  - name: emoji-cheat-sheet
+    url: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/emoji.png
+    description: 可直接将图标复制到 hexo 中使用
+
+
+# ====================================== 常用工具 ======================================
+
+books:
+  - name: 菜鸟教程
+    url: https://www.runoob.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/cainiao.png
+    description: 所有开发技术均可以在这里学习,学的不仅是技术，更是梦想！
+  - name: 廖雪峰官方教程
+    url: https://www.liaoxuefeng.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/liaoxuefeng.png
+    description: 跟着大牛廖老师畅游知识海洋！
+  - name: OI WIKI
+    url: https://oi-wiki.org/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/oiwiki.png
+    description: ACMer大佬的算法教程,菜鸟必看！
+
+
+imagebeds: 
+  - name: 聚合图床
+    url: https://www.superbed.cn/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/superbed.ico
+    description: 站长强烈推荐使用的长期有效且免费无限存储图床
+  - name: smms图床
+    url: https://sm.ms/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/superbed.ico
+    description: 国外强推安全性极强的图床网站，但是超限收费
+  - name: 去不图床
+    url: https://7bu.top/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/superbed.ico
+    description: 老牌免费图床网站，值的信赖！
+  - name: imgURL免费图床
+    url: https://imgurl.org/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/superbed.ico
+    description: 老牌免费图床网站，值的信赖！
+
+files:
+  - name: 转换成pdf
+    url: https://smallpdf.com/cn/pdf-converter
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/samllpdf.png
+    description: smallpdf提供技术支持，但是一天只能免费使用2次
+  - name: 图片压缩
+    url: https://www.tutieshi.com/compress/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/tutieshi.png
+    description: 图贴士提供技术支持，免费无限制使用
+  - name: 消除背景
+    url: https://www.remove.bg/zh/upload
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/removebg.png
+    description: 迅速去除图片背景
+  - name: docsmall
+    url: https://docsmall.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/docsmall.png
+    description: 包含对图片的各种常用处理
+  - name: Tinypng
+    url: https://tinypng.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/tinypng.ico
+    description: 图片无损压缩
+  - name: carbon
+    url: https://carbon.now.sh/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/carbon.ico
+    description: Create and share beautiful images of your source code.
+  - name: 网页缩略图
+    url: http://s.zcjun.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/zcjun.png
+    description: 在线生成网页预览缩略图
+
+
+
+tools:
+  - name: 鸠摩搜书
+    url: https://www.jiumodiary.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/jiumodiary.png
+    description: 白嫖海量图书必备网站
+  - name: 人人文库
+    url: https://www.renrendoc.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/renrendoc.png
+    description: 白嫖海量图书必备网站
+  - name: 盘多多
+    url: https://www.panduoduo.org/dm/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/panduoduo.png
+    description: 全网免费资源搜索下载
+  - name: 游侠网
+    url: https://www.ali213.net/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/ali213.png
+    description: 免费下载单机游戏，但是含有大量广告
+  - name: 吾爱破解
+    url: https://www.52pojie.cn/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/52pojie.png
+    description: 由众多热衷于软件加密解密及反病毒爱好者共同维护，留给世界一抹值得百年回眸的惊艳
+  - name: AGE动漫
+    url: http://agefans.top/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/agefans.png
+    description: 免费观看动漫网站
+  - name: 影视大厅
+    url: http://xinxx.cn/app/index.html?id=9999
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/xinxx.png
+    description: 海量影视资源分享，使用百度网盘下载
+  - name: Sabrina 的万事屋
+    url: https://xclient.info/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/xclient.ico
+    description: ✈️机场搭建
+  - name: Xclient
+    url: https://merlinblog.xyz/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/merlinblog.ico
+    description: 精品MAC应用分享
+  - name: macwk
+    url: https://macwk.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/macwk.ico
+    description: 精品MAC应用下载
+  - name: keybr
+    url: https://www.keybr.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/keybr.png
+    description: 打字练习
+  - name: typingclub
+    url: https://www.typingclub.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/keybr.png
+    description: typingclub 打字练习
+
+# ====================================== 设计美化 ======================================
+
+colors:
+  - name: Material Palette配色推荐
+    url: https://www.materialpalette.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/materialpalette.png
+    description: 提供丰富的颜色搭配设计同时还提供icon
+  - name: flatuicolorpick配色推荐
+    url: https://www.flatuicolorpicker.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/flatuicolorpicker.png
+    description: 为每一个主色都提供十个以上的颜色设计代码
+  - name: flatuicolors配色推荐
+    url: https://flatuicolors.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/flatuicolors.png
+    description: 提供多套完整的配色搭配系
+  - name: 小影颜色搭配工具箱
+    url: http://tool.c7sky.com/webcolor/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/c7sky.png
+    description: 提供好看的三色主色系搭配方案
+  - name: coolors
+    url: https://coolors.co/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/coolors.png
+    description: coolors.co
+  - name: RGB 颜色值
+    url: https://www.sioe.cn/yingyong/yanse-rgb-16/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/sioe.ico
+    description: RGB颜色值与十六进制颜色码转换工具
+
+
+images:
+  - name: Lorem Picsum图片快速生成
+    url: https://picsum.photos/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/picsum.png
+    description: 直接加入图片高宽以及random序号即可迅速生成随机图片
+  - name: WALLPAPER
+    url: https://wall.alphacoders.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/alphacoders.png
+    description: 精美高清4k桌面壁纸提供
+  - name: 500PX
+    url: https://500px.com.cn/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/500px.ico
+    description: 视觉me设计社区
+  - name: unsplash
+    url: https://unsplash.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/unsplash.png
+    description: 高质量图片网站
+  - name: WALLPAPER
+    url: https://www.pixel4k.com/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/cdn@main/navigation/img/pixel4k.ico
+    description: 精美高清4k
+
+
+
+about:
+  url: /about/
+  icon: far fa-heart
+  name: 关于本站
+
+aboutPage:
+  website:
+    head: 关于本站
+    html: '<blockquote><p>本站是由<a href="https://yanliang.cool">Yanliang</a>基于hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>创建的网址收藏百宝箱。</p></blockquote>'
+  webmaster:
+    head: 关于站长
+    name: yanliang
+    url: https://yanliang.cool/
+    img: https://cdn.jsdelivr.net/gh/gaoyanliang/blogImgs@main/blog/img/index-head.png
+    description: 频繁记录，只因生活和你太值得❤
+    html: '<br /><blockquote><p>如果喜欢此网站，不如 <kbd>Ctrl</kbd> + <kbd>D</kbd> 收藏一下？</p></blockquote>'
+
+since: 2020
+
+busuanzi:
+  enable: true
+  position: sidebar # 'footer','sidebar'
+  pv: 本站总访问量$pv
+  uv: 本站总访客数$uv
+
+custom:
+  head: |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+  body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+
+js:
+  header: /js/header.js
+  footer: /js/footer.js
+  jquery: /js/jquery-1.11.1.min.js
+  bootstrap: /js/bootstrap.min.js
+  TweenMax: /js/TweenMax.min.js
+  resizeable: /js/resizeable.min.js
+  joinable: /js/joinable.js
+  xenonApi: /js/xenon-api.min.js
+  xenonToggles: /js/xenon-toggles.min.js
+  xenonCustom: /js/xenon-custom.min.js
+  lozad: /js/lozad.min.js
+  html5shiv: /js/html5shiv.min.js
+  respond: /js/respond.min.js
+  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+css:
+  hclonely: /css/hclonely.css
+  fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
+  linecons: /css/fonts/linecons/css/linecons.min.css
+  fontawesome: /css/fonts/fontawesome/css/all.min.css
+  bootstrap: /css/bootstrap.min.css
+  xenonCore: /css/xenon-core.min.css
+  xenonComponents: /css/xenon-components.min.css
+  xenonSkins: /css/xenon-skins.min.css
+  nav: /css/nav.min.css
